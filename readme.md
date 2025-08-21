@@ -168,7 +168,7 @@ make run
 
 ## License
 
-This software is dual-licensed to the public domain and under the following license: Apache 2.0
+Apache 2.0
 
 ## Contributing
 
