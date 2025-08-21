@@ -1,10 +1,13 @@
+#define CONTAINERS_DEFINE
 #include "containers.h"
 #include <stdio.h>
+
 int main() {
 
     Arena *arena = arena_create(1024);
 
     Str str1 = str_create(arena, "Hello ");
+    printf("str1 length: %zu\n", str1.len);
     Str str2 = str_create(arena, "world!");
     Str result = str_concat(arena, str1, str2);
 
